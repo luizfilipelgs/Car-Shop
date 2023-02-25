@@ -1,6 +1,6 @@
 import IVehicle from '../Interfaces/IVehicle';
 
-class Vehicle {
+export default class Vehicle {
   private readonly id: string | undefined;
   private readonly model: string;
   private readonly year: number;
