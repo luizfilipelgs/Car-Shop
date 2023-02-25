@@ -10,4 +10,8 @@ export default class Motorcycles extends Vehicle {
     this.category = motorcycles.category;
     this.engineCapacity = motorcycles.engineCapacity;
   }
+
+  public getCategory(): string { return this.category; }
+  
+  public getEngineCapacity(): number { return this.engineCapacity; }
 }
