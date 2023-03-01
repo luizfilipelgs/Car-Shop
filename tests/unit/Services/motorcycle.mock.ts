@@ -1,5 +1,5 @@
 const motoModelMock = {
-  model: 'Honda Cb 600f Hornet',
+  model: 'Hornet',
   year: 2005,
   color: 'Yellow',
   status: true,
@@ -10,7 +10,7 @@ const motoModelMock = {
 
 const motoMock = {
   id: '6348513f34c397abcad040b2',
-  model: 'Honda Cb 600f Hornet',
+  model: 'Hornet',
   year: 2005,
   color: 'Yellow',
   status: true,
@@ -21,7 +21,7 @@ const motoMock = {
 
 const motoUpdateMock = {
   id: '6348513f34c397abcad040b2',
-  model: 'Honda Cb 600f Hornet',
+  model: 'Hornet',
   year: 2005,
   color: 'Blue',
   status: true,
@@ -43,7 +43,7 @@ const listMotoMock = [
   },
   {
     id: '6348513f34c397abcad040b2',
-    model: 'Honda Cb 600f Hornet',
+    model: 'Hornet',
     year: 2005,
     color: 'Blue',
     status: true,
