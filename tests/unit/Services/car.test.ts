@@ -31,7 +31,7 @@ describe('Teste da rota Cars', function () {
   it('03-Verifica a consulta de um carro pelo id com sucesso', async function () {
     const service = new CarService();
     sinon.stub(Model, 'findById').resolves(carMock);
-    const response = await service.findById('63fcb9659b7e9942ab2c5b35');
+    const response = await service.findById('6348513f34c397abcad040b2');
 
     expect(response.status).to.be.equal(200);
     expect(response.result).to.be.deep.equal(carMock);
@@ -49,7 +49,7 @@ describe('Teste da rota Cars', function () {
   it('05-Verifica o update de um carro com sucesso', async function () {
     const service = new CarService();
     sinon.stub(Model, 'findByIdAndUpdate').resolves(carUpdateMock);
-    const response = await service.update('63fcb9659b7e9942ab2c5b35', carUpdateMock);
+    const response = await service.update('6348513f34c397abcad040b2', carUpdateMock);
 
     expect(response.status).to.be.equal(200);
     expect(response.result).to.be.deep.equal(carUpdateMock);
@@ -58,7 +58,7 @@ describe('Teste da rota Cars', function () {
   it('06-Verifica o update de um carro com falha', async function () {
     const service = new CarService();
     sinon.stub(Model, 'findByIdAndUpdate').resolves(null);
-    const response = await service.update('63fcb9659b7e9942ab2c5b35', carUpdateMock);
+    const response = await service.update('6348513f34c397abcad040b2', carUpdateMock);
 
     expect(response.status).to.be.equal(404);
     expect(response.message).to.be.equal('Car not found');
