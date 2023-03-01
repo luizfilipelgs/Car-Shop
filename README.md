@@ -11,6 +11,7 @@
 - [**Express**](https://expressjs.com/pt-br/)
 - [**MongoDB**](https://www.mongodb.com/)
 - [**Mongoose**](https://mongoosejs.com/)
+- [**Docker**](https://www.docker.com/)
 - [**Mocha**](https://mochajs.org/)
 - [**Chai**](https://www.chaijs.com)
 - [**Sinon**](https://sinonjs.org/)
