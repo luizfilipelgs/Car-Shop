@@ -20,6 +20,29 @@ class CarService {
 
     return { status: 200, result: carDom };
   }
+
+  public async getAll() {
+    const carList = await this.model.findAll();
+    const carListDom = carList.map((c) => this.createCarDomain(c));
+
+    return { status: 200, result: carListDom };
+  }
+
+  public async findById(id: string) {
+    const carId = await this.model.findById(id);
+    const carIdDom = this.createCarDomain(carId);
+
+    if (carId) return { status: 200, result: carIdDom };
+    return { status: 404, message: 'Car not found' };
+  }
+
+  public async update(id: string, car: ICar) {
+    const carUpdated = await this.model.updateById(id, car);
+    if (!carUpdated) return { status: 404, message: 'Car not found' };
+
+    const carUpdatedDom = this.createCarDomain(carUpdated);
+    return { status: 200, result: carUpdatedDom };
+  }
 }
 
 export default CarService;
