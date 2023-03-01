@@ -74,3 +74,5 @@
 </details>
 
 # REST API <a name="rest-api"></a>
+
+## Documentação em Breve
