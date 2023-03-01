@@ -1,5 +1,4 @@
-# Boas vindas ao repositório do projeto NOMEPROJETO !
-
+# Boas vindas ao repositório do projeto Car-Shop
  # O que foi desenvolvido  👨‍💻 
 
   Uma API em Typescript com CRUD para gerenciar uma concessionária de veículos que aplica os princípios de Programação Orientada a Objetos (POO) e de BDD(behaviour driven development), focando no desenvolvimento orientado a comportamento. Isso foi feito utilizando o banco de dados MongoDB através do framework do Mongoose, e com testes de integração utilizando Mocha, chai, sinon.
@@ -63,6 +62,9 @@
 </details>
 
 <details>
+
+## Testes Unitários 
+
   <summary><strong>🛠 Execução de testes localmente</strong></summary>
 
   Para executar os testes localmente, basta executar o comando `npm run test:coverage`.
