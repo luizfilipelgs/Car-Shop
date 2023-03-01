@@ -1,5 +1,5 @@
 import Car from '../Domains/Car';
-import ICar from '../Interfaces/ICars';
+import ICar from '../Interfaces/ICar';
 import CarModel from '../Models/Cars.model';
 
 class CarService {
