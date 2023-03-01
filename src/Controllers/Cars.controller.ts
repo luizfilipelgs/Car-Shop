@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import CarService from '../Services/Car.service';
+import CarService from '../Services/Cars.service';
 
 class CarController {
   private req: Request;
