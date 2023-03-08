@@ -25,7 +25,7 @@
 
   > Clone o repositório
 
-  - `https://github.com/luizfilipelgs/Car-Shop/tree/main/tests/unit`.
+  - `https://github.com/luizfilipelgs/Car-Shop`.
   - Entre na pasta do repositório que você acabou de clonar:
   - `cd Car-Shop`.
 
@@ -49,7 +49,7 @@
 
   > Clone o repositório
 
-  - `https://github.com/luizfilipelgs/Car-Shop/tree/main/tests/unit`.
+  - `https://github.com/luizfilipelgs/Car-Shop`.
   - Entre na pasta do repositório que você acabou de clonar:
   - `cd Car-Shop`.
   > Instale as dependências [**Caso existam**] com `npm install`
